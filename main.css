@@ -1,0 +1,589 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+#Top-of-page {
+    background-image: url("images/desktop/image-hero.jpg");
+    /* Full height */
+    height: 100vh;
+    width: auto;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contant {
+    height: 40%;
+}
+
+#contant span {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 4rem;
+    text-align: left;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 3px;
+}
+
+#h1 {
+    border-style: solid;
+    border-color: white;
+}
+
+#header {
+    height: 10%;
+}
+
+#logo-image img {
+    display: block;
+    margin: auto;
+}
+
+#logo-image2 img {
+    display: block;
+}
+
+nav span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 0.9vw;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+span:hover {
+    color: black;
+}
+
+#nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+#nav a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+#middle-1 {
+    margin-top: 10%;
+}
+
+#middle-1 h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+#middle-2 span {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#middle-1 p {
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 3%;
+    font-weight: 100;
+}
+
+#middle-2 button {
+    font-family: "Josefin Sans", sans-serif;
+    color: #000;
+    background-color: #FFF;
+    border: 1px solid dimgray;
+    font-weight: bold;
+    cursor: pointer;
+    width: 50%;
+    height: 40px;
+    margin-left: 15%;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+#see_all {
+    font-family: "Josefin Sans", sans-serif;
+    color: #000;
+    background-color: #FFF;
+    border: 1px solid dimgray;
+    font-weight: bold;
+    cursor: pointer;
+    height: 40px;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+#see_all:hover,
+#middle-2 button:hover {
+    background-color: #000;
+    color: #FFF;
+    -webkit-transition: background-color .3s ease-in;
+    transition: background-color .3s ease-in;
+}
+
+#footer {
+    background-color: black;
+}
+
+#navbar-icon {
+    height: 4vh;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#ul-list {
+    width: 75%;
+    height: 50px;
+    margin: auto;
+}
+
+#close-icon {
+    cursor: pointer;
+}
+
+#mobile-navbar {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: none;
+    background-color: black;
+}
+
+.h2_size {
+    font-size: 2.1rem;
+}
+
+.transition {
+    width: 100%;
+    -webkit-transition: width 8s;
+    transition: width 8s;
+}
+
+.Card:hover {
+    -webkit-transition: opacity .2s ease-in;
+    transition: opacity .2s ease-in;
+    opacity: .5;
+    cursor: pointer;
+}
+
+#deep-earth:hover>span,
+#night-arcade:hover>span,
+#soccer-team-vr:hover>span,
+#the-grid:hover>span,
+#from-up-above-vr:hover>span,
+#from-up-above-vr:hover>span,
+#pocket-borealis:hover>span,
+#the-curiosity:hover>span,
+#make-it-fisheye:hover>span {
+    -webkit-text-stroke: 0.1px white;
+    color: black;
+}
+
+#creations {
+    font-size: 2.7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin: 0;
+}
+
+@media (min-width: 993px) {
+    .cards_background,
+    #deep-earth,
+    #night-arcade,
+    #soccer-team-vr,
+    #the-grid,
+    #from-up-above-vr,
+    #pocket-borealis,
+    #the-curiosity,
+    #make-it-fisheye {
+        width: 270px;
+        height: 450px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    }
+    #first-row span {
+        color: white;
+        font-family: "Alata", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        line-height: 1;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+    #middle-content {
+        margin-top: 12%;
+        margin-right: 10%;
+        position: absolute;
+        left: 50%;
+        padding-left: 3.5%;
+        padding-top: 3%;
+        padding-right: 3.5%;
+        padding-bottom: 1.1%;
+        background-color: white;
+    }
+    #middle-1 h2 {
+        font-size: 3.2vw;
+    }
+    #middle-1 p {
+        font-size: 1.1vw;
+        margin-top: 4%;
+    }
+    #middle-2 {
+        margin-top: 10%;
+    }
+    #contant span {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    #deep-earth {
+        background-image: url(images/desktop/image-deep-earth.jpg);
+        color: white;
+    }
+    #night-arcade {
+        background-image: url(images/desktop/image-night-arcade.jpg);
+    }
+    #soccer-team-vr {
+        background-image: url(images/desktop/image-soccer-team.jpg);
+    }
+    #the-grid {
+        background-image: url(images/desktop/image-grid.jpg);
+    }
+    #from-up-above-vr {
+        background-image: url(images/desktop/image-from-above.jpg);
+    }
+    #pocket-borealis {
+        background-image: url(images/desktop/image-pocket-borealis.jpg);
+    }
+    #the-curiosity {
+        background-image: url(images/desktop/image-curiosity.jpg);
+    }
+    #make-it-fisheye {
+        background-image: url(images/desktop/image-fisheye.jpg);
+    }
+    #first-row,
+    #second-row {
+        padding: 0 6%;
+    }
+    #ul-list2 {
+        width: 95%;
+        margin: auto;
+        color: white;
+        font-size: 0.9vw;
+    }
+    #mobile-navbar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #creations {
+        font-size: 2.3rem;
+    }
+    #first-row span {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        line-height: 1;
+        margin: 0;
+        font-size: 1rem;
+    }
+    #middle-content {
+        margin-top: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+    #middle-1 h2 {
+        font-weight: 500;
+        font-size: 2.7rem;
+    }
+    #middle-1 p {
+        font-weight: 100;
+        margin-top: 3%;
+    }
+    #contant span {
+        text-align: center;
+        font-size: 2.1rem;
+    }
+    #middle-2 {
+        margin-top: 10%;
+    }
+    .cards_background_sm,
+    #deep-earth,
+    #night-arcade,
+    #soccer-team-vr,
+    #the-grid,
+    #from-up-above-vr,
+    #pocket-borealis,
+    #the-curiosity,
+    #make-it-fisheye {
+        width: 320px;
+        height: 20vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    }
+    #deep-earth {
+        background-image: url(images/mobile/image-deep-earth.jpg);
+        color: white;
+    }
+    #deep-earth span {
+        color: white;
+    }
+    #night-arcade {
+        background-image: url(images/mobile/image-night-arcade.jpg);
+    }
+    #soccer-team-vr {
+        background-image: url(images/mobile/image-soccer-team.jpg);
+    }
+    #the-grid {
+        background-image: url(images/mobile/image-grid.jpg);
+    }
+    #from-up-above-vr {
+        background-image: url(images/mobile/image-from-above.jpg);
+    }
+    #pocket-borealis {
+        background-image: url(images/mobile/image-pocket-borealis.jpg);
+    }
+    #the-curiosity {
+        background-image: url(images/mobile/image-curiosity.jpg);
+    }
+    #make-it-fisheye {
+        background-image: url(images/mobile/image-fisheye.jpg);
+    }
+    #logo-image2 img {
+        display: block;
+        margin: auto;
+    }
+    nav span {
+        font-size: 0.9vw;
+    }
+    #ul-list2 {
+        width: 85%;
+        margin: auto;
+        color: white;
+    }
+    #mobile-navbar {
+        position: absolute;
+        height: 100vh;
+        display: none;
+        width: 100%;
+        background-color: black;
+    }
+}
+
+@media (max-width: 767px) {
+    #first-row span {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        line-height: 1;
+        margin: 0;
+        font-size: 1.4rem;
+    }
+    #middle-content {
+        margin-top: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+    #middle-1 h2 {
+        font-weight: 500;
+        font-size: 2.7rem;
+    }
+    #middle-1 p {
+        font-weight: 100;
+        margin-top: 3%;
+    }
+    #contant span {
+        text-align: center;
+        font-size: 2.1rem;
+    }
+    #middle-2 {
+        margin-top: 10%;
+    }
+    .cards_background_xs,
+    #deep-earth,
+    #night-arcade,
+    #soccer-team-vr,
+    #the-grid,
+    #from-up-above-vr,
+    #pocket-borealis,
+    #the-curiosity,
+    #make-it-fisheye {
+        width: 85%;
+        height: 30vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    }
+    #deep-earth {
+        background-image: url(images/mobile/image-deep-earth.jpg);
+    }
+    #deep-earth span {
+        color: white;
+    }
+    #night-arcade {
+        background-image: url(images/mobile/image-night-arcade.jpg);
+    }
+    #soccer-team-vr {
+        background-image: url(images/mobile/image-soccer-team.jpg);
+    }
+    #the-grid {
+        background-image: url(images/mobile/image-grid.jpg);
+    }
+    #from-up-above-vr {
+        background-image: url(images/mobile/image-from-above.jpg);
+    }
+    #pocket-borealis {
+        background-image: url(images/mobile/image-pocket-borealis.jpg);
+    }
+    #the-curiosity {
+        background-image: url(images/mobile/image-curiosity.jpg);
+    }
+    #make-it-fisheye {
+        background-image: url(images/mobile/image-fisheye.jpg);
+    }
+    #logo-image2 img {
+        display: block;
+        margin: auto;
+    }
+    nav span {
+        font-size: 15px;
+        margin: 7px;
+    }
+    #ul-list2 {
+        width: 85%;
+        margin: auto;
+        color: white;
+    }
+    #mobile-navbar {
+        position: absolute;
+        height: 100vh;
+        display: none;
+        width: 100%;
+        background-color: black;
+    }
+}
+
+
+/* -------------------------------------------------------animation--------------------------------------------------------------- */
+
+.scale-up-hor-right {
+    -webkit-animation: scale-up-hor-right 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: scale-up-hor-right 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.scale-out-hor-right {
+    -webkit-animation: scale-out-hor-right 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+    animation: scale-out-hor-right 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@-webkit-keyframes scale-out-hor-right {
+    0% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        -webkit-transform-origin: 100% 100%;
+        transform-origin: 100% 100%;
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: 100% 100%;
+        transform-origin: 100% 100%;
+        opacity: 1;
+    }
+}
+
+@keyframes scale-out-hor-right {
+    0% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        -webkit-transform-origin: 100% 100%;
+        transform-origin: 100% 100%;
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: 100% 100%;
+        transform-origin: 100% 100%;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes scale-up-hor-right {
+    0% {
+        -webkit-transform: scaleX(0.4);
+        transform: scaleX(0.4);
+        -webkit-transform-origin: 100% 100%;
+        transform-origin: 100% 100%;
+    }
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        -webkit-transform-origin: 100% 100%;
+        transform-origin: 100% 100%;
+    }
+}
+
+@keyframes scale-up-hor-right {
+    0% {
+        -webkit-transform: scaleX(0.4);
+        transform: scaleX(0.4);
+        -webkit-transform-origin: 100% 100%;
+        transform-origin: 100% 100%;
+    }
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        -webkit-transform-origin: 100% 100%;
+        transform-origin: 100% 100%;
+    }
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/*# sourceMappingURL=main.css.map */
